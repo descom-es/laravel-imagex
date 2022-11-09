@@ -2,7 +2,6 @@
 
 namespace Descom\Imagex;
 
-use Descom\Imagex\Console\Install;
 use Illuminate\Support\ServiceProvider;
 
 class ImagexServiceProvider extends ServiceProvider
