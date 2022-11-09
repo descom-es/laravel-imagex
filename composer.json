@@ -1,6 +1,6 @@
 {
-    "name": "descom/skeleton",
-    "description": "Template to generate a Laravel Package",
+    "name": "descom/imagex",
+    "description": "Package for Laravel to improve image on the fly",
     "license": "MIT",
     "authors": [
         {
@@ -22,13 +22,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Descom\\Skeleton\\": "src",
-            "Descom\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Descom\\Imagex\\": "src",
+            "Descom\\Imagex\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Descom\\Skeleton\\Tests\\": "tests"
+            "Descom\\Imagex\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -40,7 +40,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Descom\\Skeleton\\SkeletonServiceProvider"
+                "Descom\\Imagex\\ImagexServiceProvider"
             ]
         }
     },
